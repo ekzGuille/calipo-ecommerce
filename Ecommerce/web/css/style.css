@@ -1,0 +1,384 @@
+
+/* 
+    Created on : 15-may-2018, 9:46:29
+    Author     : guill
+*/
+
+
+/*https://htmlcolorcodes.com/es/*/
+
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+html,body{
+    margin:0 3% !important;
+    padding: 0;
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+body{
+    /*background-color: #ECF0F1;*/
+    /*background-color: #F6F6F6;*/
+    background-color: #FFFFFF;
+
+
+}
+.jumbotron{
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    margin: 0% auto;
+    padding: 8%;
+    background-image: url(../images/background/boatBG2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: #2C3E50 !important;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+nav.indexNav{
+    background-color: #2C3E50 !important;
+    box-sizing: border-box;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.menuAnexo{
+    color: #FFFFFF !important;
+    margin-bottom: 3%;
+}
+
+.labelForm{
+    opacity: 0;
+    font-style: italic;
+    font-size: 110%;
+}
+
+.visibleLabel{
+    opacity: 0.4;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #AED6F1;
+}
+
+#nombreUsuario{
+    text-decoration: none;
+    color: #FEAE48;
+}
+
+#nombreUsuario:hover{
+    text-decoration: none;
+    cursor: default !important;
+    color: #FEAE48;
+}
+
+.headerNav{
+    color: #CDFFFD;
+    text-decoration: none;
+}
+
+.headerNav:hover{
+    color: #CDFFFD;
+    cursor: default !important;
+    text-decoration: none;
+}
+
+footer{
+    /*    position: absolute;
+        bottom: 0;
+        width: 85%;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #2C3E50;
+        background-color: red;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;*/
+}
+
+button{
+    /*border: 1px solid #000000 !important;*/
+}
+
+.dropdown-menu{
+    background-color: #2C3E50 !important;
+}
+.dropdown-menu:hover{
+    background-color: #2C3E50 !important;
+}
+.dropdown-item:hover{
+    background-color: #2C3E50 !important;
+    color: #00899E;
+}
+
+.dropdown-item{
+    color: #FFFFFF; 
+}
+
+div .container-fluid>h5{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+table,td,th,tr{
+    text-align: center;
+}
+
+#mensajeLoginError{
+    text-align: center;
+    margin-top: 2%;
+    color: #FF0000;
+    opacity: 1;
+    animation: fadeout 2s ease-in-out forwards;
+}
+
+@keyframes fadeout{
+    0%, 75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.menuFiltrado>.nav{
+    width: 200%;
+}
+
+.menuFiltrado{
+    border-radius: 0px;
+    background-color: transparent !important;
+}
+
+.textoFiltrado{
+    color: #000000 !important;
+    background-color: #C0C0C0;
+    /*background-color: #A0A0A0;*/
+    /*background-color: #7D7D7D;*/
+    border-radius: 5px;
+}
+.muestrarioProductos{
+    text-align: center;
+}
+
+.cuadriculaProducto{
+    /*margin-top: 4%;*/
+    padding: 2%;
+}
+
+.cuadriculaWrapper{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    /*border: 2px solid #000000;*/
+    padding:10% 0 10% 0;
+    background-color: #6F6F6F;
+    background: radial-gradient(#FFFFFF,#BFBFBF);
+    border-radius: 10px;
+    min-height: 470px;
+    max-height: 470px;
+}
+
+.descripcion{
+    min-height: 280px;
+    font-size: 150%;
+    margin: 0 10% -25% 10%;
+    display: none;
+}
+
+.foto{
+    min-height: 200px;
+    /*max-height: 280px;*/
+}
+
+.nombre_prodTabla{
+    /*color: #E1E1E1;*/
+    margin-top: 2%;
+    font-size: 130%;
+    min-height: 60px;
+    max-height: 70px;
+}
+
+.precio{
+    background-color: red;
+}
+
+.precioVentaTabla,.precioVentaTablaRebaja{
+    /*color: #E1E1E1;*/
+    color: #000000;
+    font-weight: bold;
+    font-size: 140%;
+}
+
+.botonAddCarro{
+    margin: 4% 0 4% 0;
+}
+
+.botonAddCarro>.btn-success{
+    color: #000000 !important;
+}
+
+.btnCancelar{
+    background-color: #898989 !important;
+}
+
+.btnAceptar{
+    /*background-color: #6B7DE1 !important;*/
+    background-color: #80AEFF !important;
+}
+.carroCompra{
+    padding: 0.5rem .5rem 0.5rem 1rem !important;
+    /*padding: 0.5rem 1.5rem 0.5rem 1rem !important;*/
+}
+
+.contadorProducto{
+    padding-right: 2rem !important; 
+}
+
+li>.cantidadProducto{
+    /*    padding: 0 !important;*/
+}
+.cantidadProducto{
+    background-color: red;
+    color: #FFFFFF;
+    border-radius: 100%;
+    /*padding: 80% 120% !important;*/
+}
+
+.cantidadIndividual{
+    color: red;
+    font-weight: 600;
+    font-size: 150%;
+    display: inline-block;
+}
+
+.botonCompra{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.tablaCarrito{
+    margin-top: 3%;
+}
+
+.costeTotal{
+    text-align: right;
+    border-top: 2px solid #000000;
+    font-weight: bold;
+}
+
+.costeTotal>span{
+    margin-right: 1%;
+}
+
+#dineroTotal{
+    text-align: center;
+    margin-left: 3%;
+    font-size: 130%;
+}
+
+#filtradoPor{
+    margin-top:2%;
+    font-size: 140%;
+}
+
+#nombreFiltro{
+    color:red;
+    font-style:italic;
+    font-weight: bold;
+}
+
+#carroVacio{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.imgIndex{
+    width: 33%;
+}
+
+p{
+    font-size: 110%; 
+    margin: 2% 0 2% 0;
+    text-align: justify;
+}
+
+.container-fluid{
+    background-color: #ECF0F1;
+    /*background-color: #F6F6F6;*/
+    /*background-color: #FFFFFF;*/
+    padding: 0% !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.formularioInput{
+    outline: none !important;
+    text-align: center;
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid #000000;
+    border-radius: 0px;
+}
+
+.formularioInput:focus{
+    background-color: transparent;
+    outline: none !important;
+    box-shadow: none;
+    box-decoration-break: none;
+}
+
+.formularioLogin{
+    margin: 0 auto;
+    text-align: center;
+}
+
+::placeholder{
+    color: #000000 !important;
+}
+
+.btnLogin{
+    margin-top: 3%;
+}
+
+.mySlides{
+    display: none;
+    min-height: 310px;
+    max-height: 310px;
+}
+
+.btnAdmin{
+    margin-top: 2% !important;
+}
+
+.tituloAdmin{
+    text-align: center;
+}
+
+.btnMenuAdmin{
+    text-align: center;
+}
+
+.precioViejo,.costeProductoNoOferta{
+    font-size: 100%;
+    color: #710000;
+    text-decoration: line-through;
+}
+
+.descDescuento{
+    border-bottom: 2px solid #000000;
+}
+
+#tablaProducto{
+    margin-bottom: 5%;
+}
